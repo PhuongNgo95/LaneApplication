@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="1039.0" style="-fx-background-size: auto;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <HBox prefHeight="33.0" prefWidth="1039.0" style="-fx-background-size: auto; -fx-border-color: #000000;" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="47.0" prefWidth="38.0" style="-fx-background-color: #ffae01;" />
+                <Label prefHeight="47.0" prefWidth="764.0" style="-fx-background-color: #ffae01;" text="- Phần mềm soát vé ">
+                    <font>
+                        <Font name="Times New Roman Bold" size="36.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="47.0" fitWidth="146.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../image/logo.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+            <MenuButton mnemonicParsing="false" prefHeight="47.0" prefWidth="242.0" style="-fx-background-color: #ffae01;" text="Ngô Văn Phương - Ca1 (5h00 hết ca)">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Đăng Xuất" />
+              </items>
+               <font>
+                  <Font name="Times New Roman" size="12.0" />
+               </font>
+            </MenuButton>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <GridPane prefHeight="423.0" prefWidth="998.0" style="-fx-border-color: #000000;" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000000;">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="114.0" text="THÔNG BÁO">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" layoutY="61.0" prefHeight="25.0" prefWidth="252.0" text="3416214B9400ACCB0100050A" textAlignment="RIGHT" textFill="BLUE">
+                            <font>
+                                <Font name="Times New Roman Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="124.0" layoutY="86.0" prefHeight="20.0" prefWidth="196.0" text="Giao dịch thành công!" textFill="BLUE">
+                            <font>
+                                <Font name="Times New Roman Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="148.0" layoutY="108.0" prefHeight="20.0" prefWidth="148.0" text="Vé Lượt - Loại 1" textFill="BLUE">
+                            <font>
+                                <Font name="Times New Roman Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="181.0" layoutY="131.0" prefHeight="20.0" prefWidth="87.0" text="35.000" textFill="BLUE">
+                            <font>
+                                <Font name="Times New Roman Bold" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1">
+                    <children>
+                        <Label prefHeight="16.0" prefWidth="171.0" text="THÔNG TIN XE CHUẨN">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="28.0" prefHeight="17.0" prefWidth="55.0" text="Biển số">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="57.0" prefHeight="17.0" prefWidth="45.0" text="Loại xe">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="87.0" text="Giá">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="114.0" prefHeight="17.0" prefWidth="87.0" text="GHI CHÚ:">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="103.0" layoutY="27.0" prefHeight="17.0" prefWidth="82.0" text="36B461016">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="101.0" layoutY="56.0" text="01" textFill="#f20303">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="101.0" layoutY="85.0" prefHeight="20.0" prefWidth="58.0" text="35.000" textFill="#f20404">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="101.0" layoutY="114.0" prefHeight="17.0" prefWidth="101.0" text="Xe vé Lượt ETC" textFill="#f20000">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <SplitPane dividerPositions="0.13438735177865613" orientation="VERTICAL" prefHeight="250.0" prefWidth="444.0" GridPane.rowIndex="1">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="32.0" prefWidth="438.0" style="-fx-border-color: #000000;">
+                            <children>
+                                <Label alignment="CENTER" layoutX="168.0" prefHeight="25.0" prefWidth="103.0" text="36B461016" textFill="RED">
+                                    <font>
+                                        <Font name="Times New Roman Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" layoutX="37.0" layoutY="-2.0" prefHeight="29.0" prefWidth="89.0" text="ETC" textFill="#f50101">
+                                    <font>
+                                        <Font name="Times New Roman Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" layoutX="321.0" layoutY="-1.0" prefHeight="32.0" prefWidth="81.0" text="36B461016">
+                                    <font>
+                                        <Font name="Times New Roman Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="212.0" prefWidth="452.0">
+                            <children>
+                                <ImageView fitHeight="237.0" fitWidth="445.0" layoutX="-11.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0">
+                                    <image>
+                                        <Image url="@../../image/Car4.PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                        <ImageView fitHeight="245.0" fitWidth="459.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../image/Car3.PNG" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+            </children>
+        </GridPane>
+    </center>
+    <bottom>
+        <BorderPane prefHeight="109.0" prefWidth="1039.0" BorderPane.alignment="CENTER">
+            <left>
+                <BorderPane prefHeight="56.0" prefWidth="156.0" BorderPane.alignment="CENTER">
+                    <center>
+                        <ImageView fitHeight="51.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                            <image>
+                                <Image url="@../../image/barier.PNG" />
+                            </image>
+                        </ImageView>
+                    </center>
+                    <top>
+                        <Label text="THÔNG TIN QUEUE" BorderPane.alignment="CENTER">
+                            <font>
+                                <Font name="Times New Roman Bold" size="12.0" />
+                            </font>
+                        </Label>
+                    </top>
+                </BorderPane>
+            </left>
+            <bottom>
+                <HBox prefHeight="44.0" prefWidth="1039.0" style="-fx-border-color: #000000; -fx-background-color: #e4e0b7;" BorderPane.alignment="CENTER">
+                    <children>
+                        <VBox prefHeight="42.0" prefWidth="156.0" style="-fx-border-color: #aba5a5;">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="21.0" prefWidth="95.0" text="Kết nối server: " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="20.0" prefWidth="51.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="95.0" text="Kết nối BE: " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="17.0" prefWidth="40.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="161.0" style="-fx-border-color: cc#aba5a5cccc;">
+                            <children>
+                                <HBox prefHeight="28.0" prefWidth="122.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="22.0" prefWidth="118.0" text="Kết nối PLC-LM:" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="22.0" prefWidth="63.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="26.0" prefWidth="122.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="118.0" text="Kết nối PLC-CABIN:" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="17.0" prefWidth="37.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="173.0" style="-fx-border-color: #aba5a5;">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="60.0" text="ReaderA:" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="17.0" prefWidth="80.0" text="Active" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="87.0" text="ReaderB:" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                        <Label prefHeight="17.0" prefWidth="133.0" text="Standby" textFill="#7c7b7b">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="173.0" style="-fx-border-color: #aba5a5;">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="63.0" text="Barcode: " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                              <Label prefHeight="22.0" prefWidth="63.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="65.0" text="LED: " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font></Label>
+                              <Label prefHeight="22.0" prefWidth="63.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="119.0" style="-fx-border-color: #aba5a5;">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                           <children>
+                              <Label prefHeight="22.0" prefWidth="63.0" text="RRS:">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="92.0" text="Unknow" textFill="RED">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children></HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                           <children>
+                              <Label prefHeight="22.0" prefWidth="63.0" text="Máy in: " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="89.0" text="Có" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children></HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="111.0" style="-fx-border-color: #aba5a5;">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="89.0" text="Mở đoàn xe:" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="22.0" prefWidth="63.0" text="Không" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children></HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;" />
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="42.0" prefWidth="142.0">
+                            <children>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;">
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="89.0" text="Mode : " textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="19.0" prefWidth="149.0" text="Run" textFill="BLUE">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children></HBox>
+                                <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #aba5a5;" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </bottom>
+         <center>
+            <HBox prefHeight="52.0" prefWidth="883.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="146.0" style="-fx-border-color: #ff0000;" text="MTC IN" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #ff0000;" text="MTC IN" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #000000;" text="ETC IN" textAlignment="CENTER" textFill="BLUE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #ff0000;" text="MTC IN" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #000000;" text="ETC IN" textAlignment="CENTER" textFill="BLUE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #ff0000;" text="MTC OUT" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="133.0" style="-fx-border-color: #000000;" text="ETC OUT" textAlignment="CENTER" textFill="BLUE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </center>
+        </BorderPane>
+    </bottom>
+    <left>
+        <BorderPane prefHeight="455.0" prefWidth="157.0" style="-fx-border-color: #000000;" BorderPane.alignment="CENTER">
+            <top>
+                <Label contentDisplay="CENTER" prefHeight="22.0" prefWidth="157.0" style="-fx-border-color: #000000;" text="THÔNG TIN GIAO DỊCH" textAlignment="CENTER" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman Bold" size="13.0" />
+                    </font>
+                </Label>
+            </top>
+            <bottom>
+                <GridPane prefHeight="272.0" prefWidth="155.0" style="-fx-border-color: #000000; -fx-background-image: url('http://example.com');" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0">
+                            <top>
+                                <Label alignment="CENTER" prefHeight="40.0" prefWidth="151.0" text="TRẠNG THÁI CẢM BIẾN" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font name="Times New Roman Bold" size="12.0" />
+                                    </font>
+                                </Label>
+                            </top>
+                            <center>
+                                <VBox prefHeight="236.0" prefWidth="153.0" BorderPane.alignment="CENTER">
+                                    <children>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="RFID">
+                                 <font>
+                                    <Font name="Times New Roman" size="12.0" />
+                                 </font></Label>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="LOOP 0">
+                                            <font>
+                                                <Font name="Times New Roman" size="12.0" />
+                                            </font></Label>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="SICK 1">
+                                            <font>
+                                                <Font name="Times New Roman" size="12.0" />
+                                            </font></Label>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="SICK 2">
+                                            <font>
+                                                <Font name="Times New Roman" size="12.0" />
+                                            </font></Label>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="LOOP C">
+                                            <font>
+                                                <Font name="Times New Roman" size="12.0" />
+                                            </font></Label>
+                                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="153.0" style="-fx-border-style: groove; -fx-border-color: cccccc;" text="LOOP C">
+                                            <font>
+                                                <Font name="Times New Roman" size="12.0" />
+                                            </font></Label>
+                                    </children>
+                                </VBox>
+                            </center>
+                        </BorderPane>
+                    </children>
+                </GridPane>
+            </bottom>
+            <center>
+                <VBox prefHeight="204.0" prefWidth="155.0" style="-fx-background-size: 96, 205; -fx-background-repeat: no-repeat; -fx-border-color: #2e8b57; -fx-border-width: 2px; -fx-padding: 10;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="149.0" style="-fx-background-color: cccccc;" text="Ctrl + F4" textFill="RED">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="151.0" text="Xóa Queue">
+                            <font>
+                                <Font name="Times New Roman Bold Italic" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="145.0" style="-fx-background-color: cccccc;" text="Ctrl + F5" textFill="RED">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="150.0" text="Hủy GD">
+                            <font>
+                                <Font name="Times New Roman Bold Italic" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="160.0" style="-fx-background-color: cccccc;" text="Ctrl + F6" textFill="RED">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="171.0" text="Mở Bằng BS">
+                            <font>
+                                <Font name="Times New Roman Bold Italic" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="169.0" style="-fx-background-color: cccccc;" text="Ctrl + F7" textFill="RED">
+                            <font>
+                                <Font name="Times New Roman Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="142.0" text="Thêm Queue">
+                            <font>
+                                <Font name="Times New Roman Bold Italic" size="12.0" />
+                            </font>
+                        </Label>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="169.0" style="-fx-background-color: cccccc;" text="F1" textFill="RED">
+                     <font>
+                        <Font name="Times New Roman Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="142.0" text="Tra cứu TT xe chuẩn">
+                     <font>
+                        <Font name="Times New Roman Bold" size="12.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </VBox>
+            </center>
+        </BorderPane>
+    </left>
+</BorderPane>
